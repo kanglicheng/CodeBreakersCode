@@ -8,12 +8,10 @@
 class Solution(object):
     
     def lemonadeChange(self, bills):
-        five = 0
-        ten = 0
-        twenty = 0
+        five, ten, twenty = 0, 0, 0
         
         for b in bills:
-            
+       
             if b == 5:
                 five += 1
             
